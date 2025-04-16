@@ -1,0 +1,30 @@
+# Rust
+**/target
+**/*.rs.bk
+Cargo.lock
+.env
+*.log
+
+# Model files
+rust-backend/models/**
+
+# Node
+**/node_modules/
+.npm/
+.pnpm-debug.log*
+
+# Next.js
+.next/
+out/
+build/
+dist/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE/editor
+.idea/
+.vscode/
+*.swp
+*.swo
