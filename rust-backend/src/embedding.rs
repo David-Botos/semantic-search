@@ -11,6 +11,7 @@ const MODEL_PATH: &str = "./models/bge-small-en-v1.5/model.safetensors";
 const TOKENIZER_PATH: &str = "./models/bge-small-en-v1.5/tokenizer.json";
 const CONFIG_PATH: &str = "./models/bge-small-en-v1.5/config.json";
 
+#[derive(Clone)]
 pub struct EmbeddingModel {
     model: Arc<BertModel>,
     tokenizer: Arc<Tokenizer>,

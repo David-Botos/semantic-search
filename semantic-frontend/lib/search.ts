@@ -5,7 +5,7 @@ const API_URL = 'http://localhost:8080';
 /**
  * Performs a semantic search using the Rust microservice
  */
-export async function searchServices(query: string, limit: number = 10): Promise<ServiceResult[]> {
+export async function searchServices(query: string, limit: number = 50): Promise<ServiceResult[]> {
   if (!query.trim()) {
     return [];
   }
